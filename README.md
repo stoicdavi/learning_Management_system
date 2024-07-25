@@ -22,6 +22,7 @@
 - start your xampp server
 - make sure that the Apache is running
   ## edit the connect.php file as follows
+- 
 <?php
 $host = 'localhost';
 $dbname = 'school';
@@ -33,9 +34,10 @@ $conn =  new mysqli($host, $username, $password, $dbname);
 if($conn->connect_error){
     die('Database connection error: ' . $conn->connect_error);
 }
-
+- 
 ## Create your database using the following SQL commands 
 ### Note: I am using MYSQL Workbench, but the database doesn't matter use any of your choices
+- 
 -- Create the database
 CREATE DATABASE school;
 
@@ -92,7 +94,7 @@ CREATE TABLE enrollments (
     FOREIGN KEY (stud_id) REFERENCES students(stud_id),
     FOREIGN KEY (course_id) REFERENCES course(course_id)
 );
-
+- 
 ## TECHNOLOGIES USED
 - PHP
 - Bootraps CSS
