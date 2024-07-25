@@ -23,16 +23,16 @@
 - make sure that the Apache is running
   ## edit the connect.php file as follows
 - 
-<?php
-$host = 'localhost';
-$dbname = 'school';
-$username ='root';
-$password = 'use your db password';
+- <?php
+- $host = 'localhost';
+- $dbname = 'school';
+- $username ='root';
+- $password = 'use your db password';
 
-$conn =  new mysqli($host, $username, $password, $dbname);
+- $conn =  new mysqli($host, $username, $password, $dbname);
 
-if($conn->connect_error){
-    die('Database connection error: ' . $conn->connect_error);
+- if($conn->connect_error){
+      die('Database connection error: ' . $conn->connect_error);
 }
 - 
 ## Create your database using the following SQL commands 
