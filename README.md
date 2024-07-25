@@ -111,6 +111,10 @@ CREATE TABLE enrollments (
 ![image](https://github.com/user-attachments/assets/f3f5b4b0-c076-4c1e-94e2-f68b1cd21268)
 - student dashboard
 ![image](https://github.com/user-attachments/assets/c20e30b5-a091-48df-b245-ed326e44cc83)
-
+# Future advancements
+- add learning content
+- add links to resources
+- add progress tracker
+# leave a comment or advice, please
 
 
