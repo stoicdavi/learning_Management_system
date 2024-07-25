@@ -86,7 +86,7 @@ CREATE TABLE enrollments (
     FOREIGN KEY (course_id) REFERENCES course(course_id)
 );
 
--- Create a table for course enrollments
+- Create a table for course enrollments
 CREATE TABLE enrollments (
     enrollment_id INT PRIMARY KEY AUTO_INCREMENT,
     stud_id INT,
